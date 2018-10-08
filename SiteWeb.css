@@ -1,0 +1,46 @@
+.Route{text-align:center;
+color:white;
+background-color: white;
+background-image: url(ImageCSS/Route.jpg);
+background-size: contain;
+font-family:Georgia;
+font-size:large;
+}
+.centre{
+	color:white;
+	text-align:left;
+	box-sizing: content-box;
+	width: 45%;
+	border: solid #5B6DCD 10px;
+	padding: 5px;
+	background-color:rgba(0,0,0,0.4);
+	background-size:cover;
+	
+	
+}
+.ss{
+	text-decoration:underline;
+	font-family:Georgia;
+	font-weight: bold;
+	
+
+}
+	
+body{
+		background-color:#E6E6FA;
+		
+		
+		}
+	
+
+h4
+{color:#FFDEAD;
+text-decoration: underline;
+
+}
+body{
+	color:black;
+	background-color:white;
+	background-image:url(ImageCSS/Imgfond.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
