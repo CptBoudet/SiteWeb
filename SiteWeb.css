@@ -1,11 +1,49 @@
-.Route{text-align:center;
-color:white;
-background-color: white;
-background-image: url(ImageCSS/Route.jpg);
-background-size: contain;
-font-family:Georgia;
-font-size:large;
+body{
+	color:black;
+	background-color:white;
+	background-image:url(ImageCSS/Imgfond.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
 }
+
+.titre, .menu {
+	display:inline;
+	color:#FFEFD5;
+}
+
+.titre {
+	font-size: 20px;
+
+}
+
+.Route {
+	padding: 10px 10px 50px 10px;
+	display: flex;
+	justify-content:space-between;
+	color:white;
+	background-color: white;
+	background-image: url(ImageCSS/Route.jpg);
+	background-size: contain;
+	font-family:Georgia;
+	font-size:large;
+	flex-direction:line;
+}
+
+.menu {
+	font-size:30px;
+	padding-top:0;
+	align-self:flex-end;
+	font-family:fantasy;
+	font-style:;
+	
+	
+}
+
+header li {
+	margin-right:5vw;
+	display: inline-block;
+}
+
 .centre{
 	color:white;
 	text-align:left;
@@ -15,6 +53,7 @@ font-size:large;
 	padding: 5px;
 	background-color:rgba(0,0,0,0.4);
 	background-size:cover;
+	/*height:100vh;*/
 	
 	
 }
@@ -22,25 +61,16 @@ font-size:large;
 	text-decoration:underline;
 	font-family:Georgia;
 	font-weight: bold;
+	color:#FF0000;
+	
 	
 
 }
 	
-body{
-		background-color:#E6E6FA;
-		
-		
-		}
-	
+
 
 h4
 {color:#FFDEAD;
 text-decoration: underline;
 
 }
-body{
-	color:black;
-	background-color:white;
-	background-image:url(ImageCSS/Imgfond.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
