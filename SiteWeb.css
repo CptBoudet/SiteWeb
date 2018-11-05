@@ -24,7 +24,7 @@ body{
 	background-color: white;
 	background-image: url(ImageCSS/Route.jpg);
 	background-size: contain;
-	font-family:Georgia;
+	font-family: 'Orbitron', sans-serif;
 	font-size:large;
 	flex-direction:line;
 }
@@ -33,23 +33,36 @@ body{
 	font-size:30px;
 	padding-top:0;
 	align-self:flex-end;
-	font-family:fantasy;
-	font-style:;
+	font-family: 'Orbitron', sans-serif;
+	color:#FFEFD5;
+	
 	
 	
 }
+
+a {
+	color: #FFEFD5;
+	text-decoration: none;
+	
+}
+a:hover{
+color:red
+}
+
 
 header li {
 	margin-right:5vw;
 	display: inline-block;
 }
 
-.centre{
+.centre {
 	color:white;
+	font-family: 'Domine', serif;
 	text-align:left;
 	box-sizing: content-box;
 	width: 45%;
-	border: solid #5B6DCD 10px;
+	height: 600px;
+	border: solid #FF0000 10px;
 	padding: 5px;
 	background-color:rgba(0,0,0,0.4);
 	background-size:cover;
@@ -57,9 +70,9 @@ header li {
 	
 	
 }
-.ss{
+.ss {
 	text-decoration:underline;
-	font-family:Georgia;
+	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
 	color:#FF0000;
 	
@@ -74,3 +87,31 @@ h4
 text-decoration: underline;
 
 }
+.story{
+	position:absolute;
+	text-decoration:underline;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	color:#5B6DCD;
+	float:right;
+	right:888px
+}
+.histo{
+	color:white;
+	font-size:medium;
+	font-family: 'Domine', serif;
+	text-align:left;
+	box-sizing: content-box;
+	width: 50%;
+	height: 570px;
+	border: solid #5B6DCD 10px;
+	padding: 20px;
+	background-color:rgba(0,0,0,0.4);
+	background-size:cover;
+	float:right;
+	margin-top:-630px;
+}
+
+	
+
+	
