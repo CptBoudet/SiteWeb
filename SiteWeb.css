@@ -4,11 +4,14 @@ body{
 	background-image:url(ImageCSS/Imgfond.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
+	position:relative;
+
 }
 
 .titre, .menu {
 	display:inline;
 	color:#FFEFD5;
+	
 }
 
 .titre {
@@ -27,6 +30,7 @@ body{
 	font-family: 'Orbitron', sans-serif;
 	font-size:large;
 	flex-direction:line;
+	width:143%;
 }
 
 .menu {
@@ -61,11 +65,12 @@ header li {
 	text-align:left;
 	box-sizing: content-box;
 	width: 45%;
-	height: 600px;
-	border: solid #FF0000 10px;
+	border: solid #FF0000 ;
 	padding: 5px;
 	background-color:rgba(0,0,0,0.4);
 	background-size:cover;
+	margin-top: 5%;
+	
 	/*height:100vh;*/
 	
 	
@@ -75,6 +80,8 @@ header li {
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
 	color:#FF0000;
+	margin-top:15%;
+	position:relative;
 	
 	
 
@@ -92,9 +99,11 @@ text-decoration: underline;
 	text-decoration:underline;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
-	color:#5B6DCD;
+	color:#FF0000;
 	float:right;
-	right:888px
+	right:45%;
+	margin-top:-1%;
+
 }
 .histo{
 	color:white;
@@ -103,15 +112,16 @@ text-decoration: underline;
 	text-align:left;
 	box-sizing: content-box;
 	width: 50%;
-	height: 570px;
-	border: solid #5B6DCD 10px;
+	height: 50%;
+	border: solid #FF0000;
 	padding: 20px;
 	background-color:rgba(0,0,0,0.4);
 	background-size:cover;
 	float:right;
-	margin-top:-630px;
+	margin-top:-33.4%;
 }
+header{
+	position:fixed;
+	top:0;
 
-	
-
-	
+}
